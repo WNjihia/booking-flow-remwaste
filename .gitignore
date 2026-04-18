@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Vite
+frontend/dist/
+frontend/.vite/
+
+# Cypress
+automation/cypress/videos/
+automation/cypress/screenshots/
+automation/cypress/downloads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
