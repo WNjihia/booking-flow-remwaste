@@ -1,0 +1,12 @@
+{
+  "name": "booking-flow-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open --config-file cypress.config.js",
+    "cy:run": "cypress run --config-file cypress.config.js"
+  },
+  "devDependencies": {
+    "cypress": "^13.10.0"
+  }
+}
